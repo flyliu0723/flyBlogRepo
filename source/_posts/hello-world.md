@@ -37,4 +37,14 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
+## 发布步骤
+1. 首先打包静态资源
+    ```
+    hexo g
+    ```
+2. 发布
+    ```
+    hexo d
+    ```
+
 More info: [Deployment](https://hexo.io/docs/deployment.html)
