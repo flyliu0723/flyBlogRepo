@@ -44,4 +44,9 @@ categories: '你不知道的JavaScript'
 
 这里就用到了LHS和RHS，如果是LHS，也就是我们要进行赋值操作，到最后我们会自动建立这个变量并赋值（当然如果是严格模式，就没有这回事了）
 
+严格模式这种情况，即使是LHS，由于不会自动创建变量，就会和RHS一样返回ReferenceError的异常
+
 如果是RHS，最终就会报ReferenceError的异常
+
+如果你用RHS查询找到一个变量，但是对他的操作是不合法的，比如对一个非函数类型的值进行函数调用，或者引用null或undefined类型的值中的属性，就会抛出一个类型的异常，叫做TypeErroe
+
