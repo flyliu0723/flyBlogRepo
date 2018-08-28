@@ -1,5 +1,11 @@
 # flyBlogRepo
 
-### 就是想写点东西
+### blog
 
-### 朋友你要加油
+* 生成
+
+ hexo generate
+
+ * 部署
+
+ hexo deploy
